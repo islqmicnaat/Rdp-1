@@ -19,7 +19,7 @@ name: Downloading & Installing Essentials
 
 run: |
 
-Invoke-WebRequest -Url "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Down"
+Invoke-WebRequest -Url "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/setup.py" -OutFile "Down"
 
 cmd /c Downloads.bat
 
